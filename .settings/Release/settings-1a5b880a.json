@@ -23,11 +23,11 @@
   "UiPath.UiAutomation.Activities.KeyboardEvents.SendWindowMessages": "False",
   "UiPath.UiAutomation.Activities.KeyboardEvents.ClickBeforeTyping": "False",
   "UiPath.UiAutomation.Activities.KeyboardEvents.EmptyField": "False",
-  "UiPath.UiAutomation.Activities.KeyboardEvents.SimulateType": "False",
+  "UiPath.UiAutomation.Activities.KeyboardEvents.SimulateType": "True",
   "UiPath.UiAutomation.Activities.SAP.EnforceHardTimeout": "False",
   "UiPath.UiAutomation.Activities.SendHotkey.SendWindowMessages": "False",
   "UiPath.UiAutomation.Activities.MouseEvents.SendWindowMessages": "False",
-  "UiPath.UiAutomation.Activities.MouseEvents.SimulateClick": "False",
+  "UiPath.UiAutomation.Activities.MouseEvents.SimulateClick": "True",
   "UiPath.UiAutomation.Activities.MouseEvents.SimulateHover": "False",
   "UiPath.UiAutomation.Activities.Screenshot.WaitBefore": "300"
 }
