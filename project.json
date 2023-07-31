@@ -1,8 +1,8 @@
 {
-  "name": "Descarga MC Nuevo",
+  "name": "Descarga DDJJ IVA",
   "projectId": "ffc7bc86-3dfa-4be0-bb38-205985814369",
-  "description": "Blank Process",
-  "main": "Descarga_MC_NuevoAFIP.xaml",
+  "description": "Bot para descargar masivamente las Delclaraciones Juradas de IVA del servicio de Mis Aplicaciones Web",
+  "main": "Descarga_DDJJ_IVA_AFIP.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.16.0]",
     "UiPath.Mail.Activities": "[1.18.0]",
@@ -51,6 +51,12 @@
     {
       "filePath": "Descarga_MC_NuevoAFIP.xaml",
       "uniqueId": "b9d053f3-a22f-4ec5-a845-f26a21fcb69c",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Descarga_DDJJ_IVA_AFIP.xaml",
+      "uniqueId": "c351341d-0409-4b80-b86e-44188c0c0ab2",
       "input": [],
       "output": []
     }
