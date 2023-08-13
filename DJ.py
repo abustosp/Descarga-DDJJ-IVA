@@ -2,6 +2,7 @@ import tabula
 import pandas as pd
 import openpyxl
 from openpyxl.styles import PatternFill, Font
+import os
 
 # Leer el Excel que posee las ubicaciones
 Excel = pd.read_excel('Listado DDJJ IVA.xlsx')
@@ -17,6 +18,10 @@ Excel = Excel[Excel['Importar'].str.contains('Si|SI')]
 
 # hacer un for con los items del Excel
 for i in range(len(Excel)):
+
+    # Leer el PDf si existe
+    if os.path.isfile(Excel['Ubicación Descarga'][i] + Excel['DDJJ IVA'][i] + ".pdf") == False:
+        continue
 
     # Leer el PDF concatenando las columnas 'Ubicación Descarga' y 'DDJJ IVA'
     df = tabula.read_pdf((Excel['Ubicación Descarga'][i] + Excel['DDJJ IVA'][i] + ".pdf"), pages='all')
